@@ -28,6 +28,8 @@ router.post('/register',(req,res)=>{
     },(err,user) => {
         if(err) return res.status(500).send('Error')
         res.status(200).send('Register Success')
+       
+        
 
     })
 })
